@@ -34,9 +34,11 @@ body{
     display: flex;
     flex-direction: row;    
 }
-.subtitle{
+
+.card-header div:last-child p:last-child{
     opacity: 70%;
     font-size: smaller;
+    
 }
 
 .daniel{
@@ -84,12 +86,17 @@ img{
 .daniel img, .patrick img{
     border:2px solid hsl(263, 79%, 64%);
 }
-article{
+/* article{
+    font-size: 15px;
+    color: hsl(0, 0%, 81%);
+} */
+
+.card > p{
     font-size: 15px;
     color: hsl(0, 0%, 81%);
 }
 
-h2, article{
+h2, .card>p{
     margin-top: 5%;
 }
 h2,p{
