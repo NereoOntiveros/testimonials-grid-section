@@ -86,10 +86,7 @@ img{
 .daniel img, .patrick img{
     border:2px solid hsl(263, 79%, 64%);
 }
-/* article{
-    font-size: 15px;
-    color: hsl(0, 0%, 81%);
-} */
+
 
 .card > p{
     font-size: 15px;
